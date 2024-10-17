@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  color: aliceblue;
+  width: 100%;
+  height: 20vh;
+  background-color: palevioletred;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+header .caixa1 {
+  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 2rem;
+}
+header .caixa2 {
+  width: 50vw;
+}
+header ul {
+  display: flex;
+  justify-content: space-around;
+}
+header ul li:hover {
+  transform: scale(1.1);
+  transition: background-color 0.3s, transform 0.3s;
+  list-style: none;
+}
+
+main .caixa3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 1rem;
+  background-color: #FFD9EC;
+  height: 40vh;
+}
+main .caixa3 p {
+  width: 20%;
+}
+main .caixa3 img {
+  height: 35vh;
+}
+main .caixa4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FF69B4;
+  height: 40vh;
+}
+main p {
+  width: 20%;
+}
+main .caixa5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FFD9EC;
+  height: 40vh;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #FF69B4;
+}
+footer .caixa6 {
+  display: flex;
+  justify-content: space-around;
+  width: 20vw;
+  height: 15vh;
+  background-color: #FF69B4;
+}
+footer .caixa7 {
+  color: #FFD9EC;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=style.css.map */
