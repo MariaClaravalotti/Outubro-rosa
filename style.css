@@ -17,6 +17,14 @@ header {
   display: flex;
   justify-content: space-around;
 }
+@media (max-width: 400px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 0.7rem;
+  }
+}
 header .caixa1 {
   width: 30vw;
   display: flex;
@@ -35,6 +43,13 @@ header ul li:hover {
   transform: scale(1.1);
   transition: background-color 0.3s, transform 0.3s;
   list-style: none;
+  color: #18010c;
+  box-shadow: 0 0 40px #7d2ae8;
+  border-radius: 2rem;
+}
+header ul a {
+  text-decoration: none;
+  color: aliceblue;
 }
 
 main .caixa3 {
@@ -44,6 +59,16 @@ main .caixa3 {
   top: 1rem;
   background-color: #FFD9EC;
   height: 40vh;
+}
+@media (max-width: 400px) {
+  main .caixa3 p {
+    font-size: 0.5rem;
+    font-weight: bold;
+    width: 20vw;
+  }
+  main .caixa3 img {
+    width: 45vw;
+  }
 }
 main .caixa3 p {
   width: 20%;
@@ -58,6 +83,16 @@ main .caixa4 {
   background-color: #FF69B4;
   height: 40vh;
 }
+@media (max-width: 400px) {
+  main .caixa4 img {
+    height: 20vh;
+  }
+  main .caixa4 p {
+    font-size: 0.5rem;
+    font-weight: bold;
+    width: 20vw;
+  }
+}
 main p {
   width: 20%;
 }
@@ -68,6 +103,22 @@ main .caixa5 {
   background-color: #FFD9EC;
   height: 40vh;
 }
+@media (max-width: 400px) {
+  main .caixa5 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  main .caixa5 img {
+    height: 15vh;
+  }
+}
+main img:hover {
+  transform: scale(1.1);
+  transition: background-color 0.3s, transform 0.3s;
+  cursor: pointer;
+  box-shadow: 0 0 40px #7d2ae8;
+  border-radius: 2rem;
+}
 
 footer {
   width: 100%;
@@ -75,16 +126,33 @@ footer {
   justify-content: space-around;
   background-color: #FF69B4;
 }
+@media (max-width: 400px) {
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
 footer .caixa6 {
   display: flex;
   justify-content: space-around;
   width: 20vw;
-  height: 15vh;
+  height: 20vh;
   background-color: #FF69B4;
+  align-items: center;
 }
 footer .caixa7 {
   color: #FFD9EC;
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+@media (max-width: 400px) {
+  footer .caixa7 {
+    text-align: center;
+  }
+}
+footer img:hover {
+  box-shadow: 0 0 40px #7d2ae8;
+  border-radius: 2rem;
 }/*# sourceMappingURL=style.css.map */
